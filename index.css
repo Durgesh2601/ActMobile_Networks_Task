@@ -1,0 +1,32 @@
+.navbar {
+    position: sticky;
+}
+.container > h1{
+    color: #26ade4;
+}
+.bg > img{
+    width: 100%;
+}
+.featureDiv{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+.featureDiv > div{
+    width: 30%;
+    height: 40%;
+    margin-left: 1.5%;
+}
+.reviewsDiv{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    gap: 4%;
+}
+.reviewsDiv > div{
+    height: 99%;
+    width: 30%;
+    border: 1px solid green;
+}

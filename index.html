@@ -15,7 +15,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active me-5" aria-current="page" href="#nav">Home</a>
+                <a class="nav-link active me-5" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active me-5" href="#features">Features</a>
@@ -29,11 +29,25 @@
               <li class="nav-item">
                 <a class="nav-link active ms-5" href="#contact">Contact Us</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link active ms-5" href="#contact">About</a>
+              </li>
             </ul>
           </div>
         </div>
       </nav>
+      <div class="container" id="inputDiv">
+        <input type="text" id="input">
+      </div>
       <div class="container bg" id="nav">
+        <div class="toast align-items-center text-black border-0" data-bs-delay="10000" role="alert" aria-live="assertive" aria-atomic="true">
+          <div class="d-flex" style="background-color: #dba601;">
+            <div class="toast-body">
+              <p class="fs-5 ms-5 mt-2 fw-bold" id="greeting">Good Morning, Guest!</p>
+            </div>
+            <button type="button" class="btn-close btn-close-black" data-bs-dismiss="toast" aria-label="Close"></button>
+          </div>
+        </div>
           <img src="https://owlvpn.com/wp-content/uploads/2015/06/photodune-1942009-computer-work-compressed.jpg" width="100%" alt="img">
       </div><br>
       <div  class="container">
@@ -113,11 +127,11 @@
                 <h4 class="text-center">Great Work!</h4>
                 <p class="text-center">I needed a fast service that lets me connect<br> to my office network while travelling abroad. OwlVPN’s servers are located all over<br>the globe so no matter where I need access there’s always a fast node nearby.</p>
             </div>
-            <div><br>
+            <div class="text-wrap"><br>
                 <h4 class="text-center">Great Work!</h4>
                 <p class="text-center">I needed a fast service that lets me connect<br> to my office network while travelling abroad. OwlVPN’s servers are located all over<br>the globe so no matter where I need access there’s always a fast node nearby.</p>
             </div>
-            <div><br>
+            <div class="text-wrap"><br>
                 <h4 class="text-center">Great Work!</h4>
                 <p class="text-center">I needed a fast service that lets me connect<br> to my office network while travelling abroad. OwlVPN’s servers are located all over<br>the globe so no matter where I need access there’s always a fast node nearby.</p>
             </div>
@@ -126,11 +140,48 @@
       <div id="contact" class="container"><br>
         <h1 class="display-3 text-center" id="features">Contact Us</h1><br>
         <div class="conatiner contactDiv">
-            <p>Get in touch!</p>
+            <div class="text-wrap">
+              <p class="mt-3 ms-3">Get in touch!</p>
+              <i class="fa-brands fa-facebook fa-2x ms-2" style="color: #0d8af0;"></i>
+              <i class="fa-brands fa-twitter-square fa-2x ms-2" style="color: #1d9bf0;"></i>
+              <i class="fa-brands fa-instagram fa-2x ms-2" style="color: #e24c7b;"></i>
+              <i class="fa-brands fa-youtube fa-2x ms-2" style="color: #ff0000;"></i>
+            </div>
+            <div class="text-wrap">
+              <p>Address : <br>No 106, Ramalingam Road (West), Next to Ramalingam Sowdeshwari Hall, R.S Puram, Coimbatore - 641002, India</p>
+            </div>
+            
         </div>
       </div>
+
+
+      <h1 class="display-3 text-center" id="features" style="color: #26ade4;">About</h1><br>
+      <div class="mt-2" id="about">
+        <div class="container aboutDiv">
+          <div class="mt-5">
+            <p class="fs-4 ms-4 mt-2" style="color: darkgray;">LATEST ARTICLE</p>
+            <i class="fa-solid fa-angle-right ms-4" style="color: darkgray;"></i>
+            <a class="ms-1 text-decoration-none" href="https://youtu.be/JbvUhu3V0P8" style="color: #32a6dc;">What is a VPN</a><br>
+            <i class="fa-solid fa-angle-right ms-4 mt-3" style="color: darkgray;"></i>
+            <a class="ms-1 text-decoration-none" style="color: #32a6dc;" href="https://owlvpn.com/info/why-you-should-start-using-a-vpn-today/">Why you should start using a VPN today!</a>
+          </div>
+          <div class="mt-5">
+            <p class="fs-4 ms-3 mt-2" style="color: darkgray;">RECENT TWEETS</p>
+            <div class="d-flex">
+              <i class="fa-brands fa-twitter-square ms-3 me-2 mt-1" style="color: darkgray;"></i>
+              <p>Had a few technical issues with the site this <br>morning that have now been corrected. <br>Please accept our apologies for any inconvenience.</p>
+            </div>
+            <div class="d-flex">
+              <i class="fa-brands fa-twitter-square ms-3 me-2 mt-1" style="color: darkgray;"></i>
+              <p>Had a few technical issues with the site this <br>morning that have now been corrected. <br>Please accept our apologies for any inconvenience.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
 </html>
+<script src="https://kit.fontawesome.com/c40564261e.js" crossorigin="anonymous"></script>
 
 <script src="index.js"></script>

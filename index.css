@@ -86,3 +86,6 @@ input[type="text"],
 textarea {
   background-color: #dba601;
 }
+.text-center{
+  padding: 0.5rem;
+}

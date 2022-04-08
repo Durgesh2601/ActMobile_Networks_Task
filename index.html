@@ -1,187 +1,365 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
     <title>VPN Owl</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"><img class="me-2" src="./Images/logo.png" height="5%" width="5%" alt="">VPN Owl</a>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active me-5" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active me-5" href="#features">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active me-5" href="#gallery">Gallery</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active ms-2" href="#reviews">Reviews</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active ms-5" href="#contact">Contact Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active ms-5" href="#contact">About</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <div class="container" id="inputDiv">
-        <input type="text" id="input">
-      </div>
-      <div class="container bg" id="nav">
-        <div class="toast align-items-center text-black border-0" data-bs-delay="10000" role="alert" aria-live="assertive" aria-atomic="true">
-          <div class="d-flex" style="background-color: #dba601;">
-            <div class="toast-body">
-              <p class="fs-5 ms-5 mt-2 fw-bold" id="greeting">Good Morning, Guest!</p>
-            </div>
-            <button type="button" class="btn-close btn-close-black" data-bs-dismiss="toast" aria-label="Close"></button>
-          </div>
-        </div>
-          <img src="https://owlvpn.com/wp-content/uploads/2015/06/photodune-1942009-computer-work-compressed.jpg" width="100%" alt="img">
-      </div><br>
-      <div  class="container">
-          <h1 class="display-3 text-center" id="features">Our Features</h1>
-          <div class="container featureDiv mt-5">
-            <div>
-                <h3 class="display-6">HIGH SECURITY</h3>
-                <p>When you connect to owlVPN.com servers you are protected by advanced 256-bit encryption and complex data protocols.</p>
-            </div>
-            <div>
-                <h3 class="display-6">TOTAL ANONYMITY</h3>
-                <p>When you connect to owlVPN.com servers you are protected by advanced 256-bit encryption and complex data protocols.</p>
-            </div>
-            <div>
-                <h3 class="display-6">ZERO LOGGING</h3>
-                <p>When you connect to owlVPN.com servers you are protected by advanced 256-bit encryption and complex data protocols.</p>
-            </div>
-            <div>
-                <h3 class="display-6">MULTI-PROTOCOL</h3>
-                <p>When you connect to owlVPN.com servers you are protected by advanced 256-bit encryption and complex data protocols.</p>
-            </div>
-            <div>
-                <h3 class="display-6">COMPATIBILITY</h3>
-                <p>When you connect to owlVPN.com servers you are protected by advanced 256-bit encryption and complex data protocols.</p>
-            </div>
-            <div>
-                <h3 class="display-6">24/7 SUPPORT</h3>
-                <p>When you connect to owlVPN.com servers you are protected by advanced 256-bit encryption and complex data protocols.</p>
-            </div>
-          </div>
-      </div>
-      <div id="gallery" class="container">
-        <h1 class="display-3 text-center">Gallery</h1><br>
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="https://www.howtogeek.com/wp-content/uploads/2018/04/vpn-logo-on-a-smartphone-and-laptop-computer.jpeg?height=200p&trim=2,2,2,2&crop=16:9" class="d-block w-100" height="100%" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Lorem Ipsum</h5>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRBjGRjjg8KaFFz--6m_EFcVUR7v38s3I-zA&usqp=CAU" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Lorem Ipsum</h5>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqp5y0lSSDeSk-PP4P6s-KSwYhLP9kkurMg2Dg9ky5n0vgssg2IuiTdsBeL5m450UbdsQ&usqp=CAU" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Lorem Ipsum</h5>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-      </div><br>
-      <div id="reviews" class="container"><br>
-        <h1 class="display-3 text-center" id="features">Customer Reviews</h1>
-        <div class="container reviewsDiv mt-4">
-            <div class="text-wrap"><br>
-                <h4 class="text-center">Great Work!</h4>
-                <p class="text-center">I needed a fast service that lets me connect<br> to my office network while travelling abroad. OwlVPN’s servers are located all over<br>the globe so no matter where I need access there’s always a fast node nearby.</p>
-            </div>
-            <div class="text-wrap"><br>
-                <h4 class="text-center">Great Work!</h4>
-                <p class="text-center">I needed a fast service that lets me connect<br> to my office network while travelling abroad. OwlVPN’s servers are located all over<br>the globe so no matter where I need access there’s always a fast node nearby.</p>
-            </div>
-            <div class="text-wrap"><br>
-                <h4 class="text-center">Great Work!</h4>
-                <p class="text-center">I needed a fast service that lets me connect<br> to my office network while travelling abroad. OwlVPN’s servers are located all over<br>the globe so no matter where I need access there’s always a fast node nearby.</p>
-            </div>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"
+          ><img
+            class="me-2"
+            src="./Images/logo.png"
+            height="5%"
+            width="5%"
+            alt=""
+          />VPN Owl</a
+        >
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active me-5" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active me-5" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active me-5" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active ms-2" href="#reviews">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active ms-5" href="#contact">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active ms-5" href="#contact">About</a>
+            </li>
+          </ul>
         </div>
       </div>
-      <div id="contact" class="container"><br>
-        <h1 class="display-3 text-center" id="features">Contact Us</h1><br>
-        <div class="conatiner contactDiv">
-            <div class="text-wrap">
-              <p class="mt-3 ms-3">Get in touch!</p>
-              <i class="fa-brands fa-facebook fa-2x ms-2" style="color: #0d8af0;"></i>
-              <i class="fa-brands fa-twitter-square fa-2x ms-2" style="color: #1d9bf0;"></i>
-              <i class="fa-brands fa-instagram fa-2x ms-2" style="color: #e24c7b;"></i>
-              <i class="fa-brands fa-youtube fa-2x ms-2" style="color: #ff0000;"></i>
-            </div>
-            <div class="text-wrap">
-              <p>Address : <br>No 106, Ramalingam Road (West), Next to Ramalingam Sowdeshwari Hall, R.S Puram, Coimbatore - 641002, India</p>
-            </div>
-            
+    </nav>
+    <div class="container" id="inputDiv">
+      <input
+        type="text"
+        id="input"
+        oninput="debounce(changeColor,100)"
+        value="#"
+      />
+    </div>
+    <div class="container bg" id="nav">
+      <div
+        class="toast align-items-center text-black border-0"
+        data-bs-delay="10000"
+        role="alert"
+        aria-live="assertive"
+        aria-atomic="true"
+      >
+        <div class="d-flex" style="background-color: #dba601">
+          <div class="toast-body">
+            <p class="fs-5 ms-5 mt-2 fw-bold" id="greeting">
+              Good Morning, Guest!
+            </p>
+          </div>
+          <button
+            type="button"
+            class="btn-close btn-close-black"
+            data-bs-dismiss="toast"
+            aria-label="Close"
+          ></button>
         </div>
       </div>
+      <img
+        src="https://owlvpn.com/wp-content/uploads/2015/06/photodune-1942009-computer-work-compressed.jpg"
+        width="100%"
+        alt="img"
+      />
+    </div>
+    <br />
+    <div class="container">
+      <h1 class="display-3 text-center" id="features">Our Features</h1>
+      <div class="container featureDiv mt-5">
+        <div>
+          <h3 class="display-6">HIGH SECURITY</h3>
+          <p>
+            When you connect to owlVPN.com servers you are protected by advanced
+            256-bit encryption and complex data protocols.
+          </p>
+        </div>
+        <div>
+          <h3 class="display-6">TOTAL ANONYMITY</h3>
+          <p>
+            When you connect to owlVPN.com servers you are protected by advanced
+            256-bit encryption and complex data protocols.
+          </p>
+        </div>
+        <div>
+          <h3 class="display-6">ZERO LOGGING</h3>
+          <p>
+            When you connect to owlVPN.com servers you are protected by advanced
+            256-bit encryption and complex data protocols.
+          </p>
+        </div>
+        <div>
+          <h3 class="display-6">MULTI-PROTOCOL</h3>
+          <p>
+            When you connect to owlVPN.com servers you are protected by advanced
+            256-bit encryption and complex data protocols.
+          </p>
+        </div>
+        <div>
+          <h3 class="display-6">COMPATIBILITY</h3>
+          <p>
+            When you connect to owlVPN.com servers you are protected by advanced
+            256-bit encryption and complex data protocols.
+          </p>
+        </div>
+        <div>
+          <h3 class="display-6">24/7 SUPPORT</h3>
+          <p>
+            When you connect to owlVPN.com servers you are protected by advanced
+            256-bit encryption and complex data protocols.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="gallery" class="container">
+      <h1 class="display-3 text-center">Gallery</h1>
+      <br />
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://www.howtogeek.com/wp-content/uploads/2018/04/vpn-logo-on-a-smartphone-and-laptop-computer.jpeg?height=200p&trim=2,2,2,2&crop=16:9"
+              class="d-block w-100"
+              height="100%"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Lorem Ipsum</h5>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRBjGRjjg8KaFFz--6m_EFcVUR7v38s3I-zA&usqp=CAU"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Lorem Ipsum</h5>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqp5y0lSSDeSk-PP4P6s-KSwYhLP9kkurMg2Dg9ky5n0vgssg2IuiTdsBeL5m450UbdsQ&usqp=CAU"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Lorem Ipsum</h5>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <br />
+    <div id="reviews" class="container">
+      <br />
+      <h1 class="display-3 text-center" id="features">Customer Reviews</h1>
+      <div class="container reviewsDiv mt-4">
+        <div class="text-wrap">
+          <br />
+          <h4 class="text-center">Great Work!</h4>
+          <p class="text-center">
+            I needed a fast service that lets me connect<br />
+            to my office network while travelling abroad. OwlVPN’s servers are
+            located all over<br />the globe so no matter where I need access
+            there’s always a fast node nearby.
+          </p>
+        </div>
+        <div class="text-wrap">
+          <br />
+          <h4 class="text-center">Great Work!</h4>
+          <p class="text-center">
+            I needed a fast service that lets me connect<br />
+            to my office network while travelling abroad. OwlVPN’s servers are
+            located all over<br />the globe so no matter where I need access
+            there’s always a fast node nearby.
+          </p>
+        </div>
+        <div class="text-wrap">
+          <br />
+          <h4 class="text-center">Great Work!</h4>
+          <p class="text-center">
+            I needed a fast service that lets me connect<br />
+            to my office network while travelling abroad. OwlVPN’s servers are
+            located all over<br />the globe so no matter where I need access
+            there’s always a fast node nearby.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="contact" class="container">
+      <br />
+      <h1 class="display-3 text-center" id="features">Contact Us</h1>
+      <br />
+      <div class="conatiner contactDiv">
+        <div class="text-wrap">
+          <p class="mt-3 ms-3">Get in touch!</p>
+          <i
+            class="fa-brands fa-facebook fa-2x ms-2"
+            style="color: #0d8af0"
+          ></i>
+          <i
+            class="fa-brands fa-twitter-square fa-2x ms-2"
+            style="color: #1d9bf0"
+          ></i>
+          <i
+            class="fa-brands fa-instagram fa-2x ms-2"
+            style="color: #e24c7b"
+          ></i>
+          <i class="fa-brands fa-youtube fa-2x ms-2" style="color: #ff0000"></i>
+        </div>
+        <div class="text-wrap">
+          <p>
+            Address : <br />No 106, Ramalingam Road (West), Next to Ramalingam
+            Sowdeshwari Hall, R.S Puram, Coimbatore - 641002, India
+          </p>
+        </div>
+      </div>
+    </div>
 
-
-      <h1 class="display-3 text-center" id="features" style="color: #26ade4;">About</h1><br>
-      <div class="mt-2" id="about">
-        <div class="container aboutDiv">
-          <div class="mt-5">
-            <p class="fs-4 ms-4 mt-2" style="color: darkgray;">LATEST ARTICLE</p>
-            <i class="fa-solid fa-angle-right ms-4" style="color: darkgray;"></i>
-            <a class="ms-1 text-decoration-none" href="https://youtu.be/JbvUhu3V0P8" style="color: #32a6dc;">What is a VPN</a><br>
-            <i class="fa-solid fa-angle-right ms-4 mt-3" style="color: darkgray;"></i>
-            <a class="ms-1 text-decoration-none" style="color: #32a6dc;" href="https://owlvpn.com/info/why-you-should-start-using-a-vpn-today/">Why you should start using a VPN today!</a>
+    <h1 class="display-3 text-center" id="features" style="color: #26ade4">
+      About
+    </h1>
+    <br />
+    <div class="mt-2" id="about">
+      <div class="container aboutDiv">
+        <div class="mt-5">
+          <p class="fs-4 ms-4 mt-2" style="color: darkgray">LATEST ARTICLE</p>
+          <i class="fa-solid fa-angle-right ms-4" style="color: darkgray"></i>
+          <a
+            class="ms-1 text-decoration-none"
+            href="https://youtu.be/JbvUhu3V0P8"
+            style="color: #32a6dc"
+            >What is a VPN</a
+          ><br />
+          <i
+            class="fa-solid fa-angle-right ms-4 mt-3"
+            style="color: darkgray"
+          ></i>
+          <a
+            class="ms-1 text-decoration-none"
+            style="color: #32a6dc"
+            href="https://owlvpn.com/info/why-you-should-start-using-a-vpn-today/"
+            >Why you should start using a VPN today!</a
+          >
+        </div>
+        <div class="mt-5">
+          <p class="fs-4 ms-3 mt-2" style="color: darkgray">RECENT TWEETS</p>
+          <div class="d-flex">
+            <i
+              class="fa-brands fa-twitter-square ms-3 me-2 mt-1"
+              style="color: darkgray"
+            ></i>
+            <p>
+              Had a few technical issues with the site this <br />morning that
+              have now been corrected. <br />Please accept our apologies for any
+              inconvenience.
+            </p>
           </div>
-          <div class="mt-5">
-            <p class="fs-4 ms-3 mt-2" style="color: darkgray;">RECENT TWEETS</p>
-            <div class="d-flex">
-              <i class="fa-brands fa-twitter-square ms-3 me-2 mt-1" style="color: darkgray;"></i>
-              <p>Had a few technical issues with the site this <br>morning that have now been corrected. <br>Please accept our apologies for any inconvenience.</p>
-            </div>
-            <div class="d-flex">
-              <i class="fa-brands fa-twitter-square ms-3 me-2 mt-1" style="color: darkgray;"></i>
-              <p>Had a few technical issues with the site this <br>morning that have now been corrected. <br>Please accept our apologies for any inconvenience.</p>
-            </div>
+          <div class="d-flex">
+            <i
+              class="fa-brands fa-twitter-square ms-3 me-2 mt-1"
+              style="color: darkgray"
+            ></i>
+            <p>
+              Had a few technical issues with the site this <br />morning that
+              have now been corrected. <br />Please accept our apologies for any
+              inconvenience.
+            </p>
           </div>
         </div>
       </div>
-
-</body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+  ></script>
 </html>
-<script src="https://kit.fontawesome.com/c40564261e.js" crossorigin="anonymous"></script>
+<script
+  src="https://kit.fontawesome.com/c40564261e.js"
+  crossorigin="anonymous"
+></script>
 
 <script src="index.js"></script>

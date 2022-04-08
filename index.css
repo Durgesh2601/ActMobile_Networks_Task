@@ -1,87 +1,88 @@
 .navbar {
-    position: sticky;
+  position: sticky;
 }
-.container > h1{
-    color: #26ade4;
+.container > h1 {
+  color: #26ade4;
 }
-.bg > img{
-    width: 100%;
+.bg > img {
+  width: 100%;
 }
-.featureDiv{
-    width: 100%;
-    height: 550px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2%;
+.featureDiv {
+  width: 100%;
+  height: 550px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2%;
 }
-.featureDiv > div{
-    width: 30%;
-    height: 40%;
-    margin-left: 1.5%;
+.featureDiv > div {
+  width: 30%;
+  height: 40%;
+  margin-left: 1.5%;
 }
-.reviewsDiv{
-    width: 100%;
-    height: 250px;
-    display: flex;
-    gap: 4%;
+.reviewsDiv {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  gap: 4%;
 }
-.reviewsDiv > div{
-    height: 95%;
-    width: 33%;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+.reviewsDiv > div {
+  height: 95%;
+  width: 33%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .contactDiv {
-    width: 80%;
-    margin: auto;
-    height: 170px;
-    display: flex;
-    justify-content: space-around;
+  width: 80%;
+  margin: auto;
+  height: 170px;
+  display: flex;
+  justify-content: space-around;
 }
-.contactDiv > div{
-    width: 30%;
-    height: 90%;
+.contactDiv > div {
+  width: 30%;
+  height: 90%;
 }
 .aboutDiv {
-    height: 300px;
-    display: flex;
-    justify-content: space-around;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
 }
-#about{
-    width: 100%;
-    background-color: #474c55;
+#about {
+  width: 100%;
+  background-color: #474c55;
 }
 .aboutDiv > div {
-    width: 47%;
-    height: 90%;
+  width: 47%;
+  height: 90%;
 }
-.d-flex > p{
-    color: darkgray;
+.d-flex > p {
+  color: darkgray;
 }
-.toast{
-    position: absolute;
-    left: 25rem;
-    top: 5rem;
+.toast {
+  position: absolute;
+  left: 25rem;
+  top: 5rem;
 }
-.btn-close{
-    position: absolute;
-    right: 0;
+.btn-close {
+  position: absolute;
+  right: 0;
 }
-#inputDiv{
-    width: 16%;
-    height: 140px;
-    position: sticky;
-    z-index: 1;
-    top: 30rem;
-    margin-right: 10%;
-    background-color: #dba601;
-    border-radius: 10px;
+#inputDiv {
+  width: 16%;
+  height: 140px;
+  position: sticky;
+  z-index: 1;
+  top: 30rem;
+  margin-right: 10%;
+  background-color: #dba601;
+  border-radius: 10px;
 }
-#input{
-    width: 100%;
-    height: 100%;
-    border: 0;
-    outline: none;
+#input {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  outline: none;
 }
-input[type="text"], textarea{
-    background-color: #dba601;
+input[type="text"],
+textarea {
+  background-color: #dba601;
 }

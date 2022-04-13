@@ -51,7 +51,7 @@
   background-color: #474c55;
 }
 .aboutDiv > div {
-  width: 47%;
+  width: 46%;
   height: 90%;
 }
 .d-flex > p {
@@ -87,5 +87,5 @@ textarea {
   background-color: #dba601;
 }
 .text-center{
-  padding: 0.5rem;
+  padding: 0.6rem;
 }
